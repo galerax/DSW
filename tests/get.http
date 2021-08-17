@@ -1,0 +1,15 @@
+#Getting Main Page
+GET http://localhost:8081/ HTTP/1.1
+###
+
+#Getting api page
+GET http://localhost:8081/api/ HTTP/1.1
+###
+
+#Getting all Entries
+GET http://localhost:8081/api/cpf/return/ HTTP/1.1
+###
+
+#Getting an Entry by CPF
+GET http://localhost:8081/api/cpf/return/35737161056 HTTP/1.1
+###

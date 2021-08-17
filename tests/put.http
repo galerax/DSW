@@ -1,0 +1,8 @@
+PUT http://localhost:8081/api/cpf/update/93289221008 HTTP/1.1
+Content-Type: application/json
+
+{
+    "description" : "teste"
+}
+
+###
